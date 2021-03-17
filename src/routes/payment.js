@@ -4,8 +4,8 @@ const paypal = require('paypal-rest-sdk')
 
 paypal.configure({
     'mode': 'sandbox', //sandbox or live
-    'client_id': 'AeQsYTuWludAvMqNV2xKUAAgoM7ZqUgJRjhvSPKS22dONhXJRsdWOOm3o65W4Vi17eOG_PejQuYXGs9A',
-    'client_secret': 'EKWKq598iQjFlW2BaPhF9xxKzP2JVczvY8pAXMs7Cy4w7BSRrj2mLV9rb7v10KSyY5VD8M_Fa39d7_Et'
+    'client_id': 'PayPal_ClientID',
+    'client_secret': 'PayPal_ClientSecret'
 })
 
 router.get('/', async (req, res) => {
